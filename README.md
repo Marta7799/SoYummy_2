@@ -1,112 +1,71 @@
-# React homework template
+# ![Image alt](./src/images/logo.svg) SoYummy App - your digital cookbook!
 
-Цей проект був створений за допомогою
-[Create React App](https://github.com/facebook/create-react-app). Для знайомства
-і налаштування додаткових можливостей
-[звернися до документації](https://facebook.github.io/create-react-app/docs/getting-started).
+## Description:
 
-## Створення репозиторію за шаблоном
+SoYummy is a feature-rich single-page application (SPA). Fully responsive
+design, oriented to any device (mobile, tablet, desktop). This app offers more
+than just a collection of recipes - it is designed to be your very own digital
+cookbook. You can easily save and retrieve your own recipes at any time. SoYummy
+[Live page](https://marta7799.github.io/SoYummy/).
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення репозиторію
-свого проєкта. Для цього натисни на кнопку `«Use this template»` і вибери опцію
-`«Create a new repository»`, як показано на зображенні.
+<span>
+<img src="./src/images/readme/so-yummy-sample-2.png" width="400" height="400" title="welcome">
+</span>
+<span>
+<img src="./src/images/readme/soymmy_sample_1.png" width="400" height="400" title="welcome">
+</span>
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+### Features:
 
-На наступному кроці відкриється сторінка створення нового репозиторію. Заповни поле
-його імені, переконайся що репозиторій публічний, після чого натисни кнопку
-`«Create repository from template»`.
+- Registration and Login: user have the option to register and login (used:
+  name, email, password)
+- User have the option to choose/change his avatar and name
+- Search for recipes by title, keywords or any ingredients
+- For comfort, it is possible to choose a dark or light theme with the toggle on
+  the menu
+- Organization of recipes by categories, which makes it easier to find and
+  navigate in the application on the `"Categories"` page
+- The user has the opportunity to add his own recipes to the app on the
+  `"Add recipes"`. With the help of the form, you can upload a photo of the
+  recipe, quickly and conveniently choose the ingredients and make a description
+  of the preparation of the dish. The added recipe will appear both on the
+  `"My Recipes"` and in the general collection of recipes on the `"Categories"`
+- The selected recipe page contains all the necessary information for its
+  preparation. There is also an option to add/remove a recipe to favorites to
+  return to the recipe later when needed on the `"Favorites"` page.
+- Ability to create a shopping list based on selected recipes. The user can
+  check the necessary ingredients and they will be available in the
+  `"Shopping list"` page
+- Possibility to `subscribe` to the newsletter of new recipes and news
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+## Technologies Used:
 
-Після того як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як
-показано на зображенні.
+### FrontEnd:
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+- **HTML/CSS**
+- **JavaScript**
+- **Axios**
+- **React**
+- **React-router-dom**
+- **ReduxToolkit**
+- **React-select**
+- **React-icons**
+- **React-loader-spinner**
+- **Emotion**
+- **Formiks**
+- **Yup**
 
-Проскроливши сторінку до самого кінця, у секції `«Workflow permissions»` вибери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це
-необхідно для автоматизації процесу деплою проєкту.
+### BackEnd
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів і папок
-репозиторію-шаблону. Далі працюй із ним як із будь-яким іншим особистим репозиторієм,
-клонуй його собі на комп'ютер, пиши код, роби комміти і відправляй їх на
-GitHub.
-
-## Підготовка до роботи
-
-1. Переконайся що на комп'ютері встановлено LTS-версія Node.js.
-   [Завантаж і встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проєкту командою `npm install`.
-3. Запусти режим розробки, виконавши команду `npm start`.
-4. Перейди в браузері за адресою [http://localhost:3000](http://localhost:3000).
-   Ця сторінка буде автоматично перезавантажуватися після збереження змін у файлах проєкту.
-
-## Деплой
-
-Продакшн версія проєкту буде автоматично проходити лінтинг, збиратися і
-деплоїтися на GitHub Pages, у гілку `gh-pages`, щоразу, коли оновлюється
-гілка `main`. Наприклад, після прямого пушу або прийнятого пул-реквесту. Для цього
-необхідно у файлі `package.json` відредагувати поле `homepage`, замінивши
-`your_username` і `your_repo_name` на свої, і відправити зміни на GitHub.
-
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
-
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) і
-виставити роздачу продакшн-версії файлів із папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Статус деплоя
-
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
-
-- **Жовтий колір** - виконується збірка і деплой проєкту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, сборки або деплою сталася помилка.
-
-Детальнішу інформацію про статус можна подивитися, клікнувши на іконку, і
-у вікні, що випадає, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Жива сторінка
-
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися
-за адресою, вказаною у відредагованій властивості `homepage`. Наприклад, ось
-посилання на живу версію для цього репозиторію
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Якщо відкривається порожня сторінка, переконайся, що у вкладці `Console` немає помилок
-пов'язаних із неправильними шляхами до CSS і JS файлів проєкту (**404**). Швидше 
-за все у тебе неправильне значення властивості `homepage` у файлі `package.json`.
-
-### Маршрутизація
-
-Якщо додаток використовує бібліотеку `react-router-dom` для маршрутизації,
-необхідно додатково налаштувати компонент `<BrowserRouter>`, передавши у пропе
-`basename` точну назву твого репозиторію. Слеш на початку рядка обов'язковий.
-
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
-
-1. Після кожного пушу в гілку `main` GitHub-репозиторія, запускається спеціальний
-   скрипт (GitHub Action) з файла `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується і
-   проходить лінтинг і збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн-версія файлів проєкту
-   відправляється в гілку `gh-pages`. В іншому випадку, в лозі виконання
-   скрипта буде вказано в чому проблема.
+- **Node.js**
+- **Express**
+- **Mongoose**
+- **Swagger**
+- **Sendgrid**
+- **Cloudinary**
+- **Cors**
+- **Jimp**
+- **Joi**
+- **Jsonwebtoken**
+- **Morgan**
+- **Multer**
