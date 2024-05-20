@@ -10,7 +10,7 @@ import {
 import getRecipesById from '../../redux/recipes/operations/getRecipesById';
 import { MainContainer } from 'components/MainContainer/MainContainer';
 import RecipePageHero from 'components/RecipePageHero';
-import RecipeInngredientsList from 'components/RecipeInngredientsList';
+import RecipeInngredientsList from 'components/RecipeIngredientsList';
 import RecipePreparation from 'components/RecipePreparation';
 import Loader from 'components/ReusableComponents/Loader';
 
