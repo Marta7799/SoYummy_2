@@ -2,7 +2,6 @@ import { NetworkList, Link } from './Networks.styled';
 import sprite from 'images/icons/networks-sprite.svg';
 
 const Networks = ({
-  //пропси для розмірів іконок
   wFacebook,
   hFacebook,
   wYoutube,
@@ -11,7 +10,6 @@ const Networks = ({
   hTwitter,
   wInstagram,
   hInstagram,
-  //пропси для стилів
   hoverColor,
   gap,
   iconColor,
