@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
-import СhooseYourBreakfast from 'components/ChooseYourBreakfast';
+import ChooseYourBreakfast from 'components/ChooseYourBreakfast';
 import SearchForm from 'components/ReusableComponents/SearchForm/SearchForm';
-import PreviewCategories from 'components/PreviewCategories';
+import PreviewCategories from 'components/PreviewCategories/PreviewCategories';
 
 import MobileDish from 'images/mainPage/images/hero-mobile-dish.png';
 import MobileDishRetina from 'images/mainPage/images/hero-mobile-dish@2x.png';
@@ -94,7 +94,7 @@ const MainPage = () => {
                 />
               </PointerImg>
             )}
-            <СhooseYourBreakfast />
+            <ChooseYourBreakfast />
           </HeroImgWrapper>
           {!isMobile && <SearchForm />}
         </HeroContainer>

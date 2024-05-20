@@ -6,8 +6,8 @@ import {
   selectError,
   selectIsLoading,
   selectRecipeById,
-} from 'redux/recipes/recipesSelector';
-import getRecipesById from 'redux/recipes/operations/getRecipesById';
+} from '../../redux/recipes/recipesSelector';
+import getRecipesById from '../../redux/recipes/operations/getRecipesById';
 import { MainContainer } from 'components/MainContainer/MainContainer';
 import RecipePageHero from 'components/RecipePageHero';
 import RecipeInngredientsList from 'components/RecipeInngredientsList';

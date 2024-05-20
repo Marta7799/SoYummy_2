@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useLayoutEffect, useRef } from 'react';
 
-import getOwnRecipe from 'redux/recipes/operations/getOwnRecipes';
+import getOwnRecipe from '../../redux/recipes/operations/getOwnRecipes';
 
 import { MainContainer } from 'components/MainContainer/MainContainer';
 import Loader from 'components/ReusableComponents/Loader';
@@ -9,8 +9,8 @@ import RecipeCardItem from 'components/ReusableComponents/RecipeCardItem';
 
 import { EmptyInfo, List, Section, Title } from './MyRecipesPage.styled';
 import SearchCapImage from 'components/ReusableComponents/SearchCap';
-import deleteOwnRecipe from 'redux/recipes/operations/deleteOwnRecipe';
-import getOwnRecipes from 'redux/recipes/operations/getOwnRecipes';
+import deleteOwnRecipe from '../../redux/recipes/operations/deleteOwnRecipe';
+import getOwnRecipes from '../../redux/recipes/operations/getOwnRecipes';
 import Pagination from 'components/ReusableComponents/Pagination';
 
 const MyRecipesPage = () => {

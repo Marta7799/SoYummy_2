@@ -14,7 +14,7 @@ import {
   resetRecipeByTitle,
   resetRecipeByIngredient,
   resetCurrentPage,
-} from 'redux/search/searchSlice';
+} from '../../../redux/search/searchSlice';
 import { selectOption } from 'components/SearchTypeSelector/SearchTypeSelector';
 
 const SearchForm = () => {
