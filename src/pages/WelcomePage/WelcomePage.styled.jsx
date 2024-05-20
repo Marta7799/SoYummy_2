@@ -7,7 +7,7 @@ import {
   salat_md_retina,
   salat_lg,
   salat_lg_retina,
-} from 'images/welcomePage/images';
+} from 'images/wellcomePage/images';
 
 export const Container = styled.div`
   height: 100vh;

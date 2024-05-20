@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 
 import { AuthForm } from 'components/AuthForm/AuthForm';
-import { selectAuth } from 'redux/auth/selectors';
+import { selectAuth } from '../../redux/auth/selectors';
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

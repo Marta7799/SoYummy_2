@@ -16,7 +16,7 @@ import { getShoppingList } from '../../redux/shopping-list/operations';
 import { selectShoppingList } from '../../redux/shopping-list/selectors';
 import CustomCheckbox from './CustomCheckbox';
 
-const RecipeInngredientsList = ({ ingredients, recipeId }) => {
+const RecipeIngredientsList = ({ ingredients, recipeId }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
