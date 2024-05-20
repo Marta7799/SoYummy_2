@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/goit-final-project">
+        <BrowserRouter basename="/SoYummy_2">
           <App />
           <Toaster />
         </BrowserRouter>

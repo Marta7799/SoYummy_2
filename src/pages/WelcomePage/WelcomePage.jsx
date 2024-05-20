@@ -6,7 +6,7 @@ import {
   Text,
   TextContainer,
   Title,
-} from './WellcomePage.styled';
+} from './WelcomePage.styled';
 import logo from '../../images/logo.svg';
 
 const WelcomePage = () => {
