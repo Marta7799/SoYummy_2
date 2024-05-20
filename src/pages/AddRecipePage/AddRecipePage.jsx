@@ -5,7 +5,7 @@ import { ingredientOperations } from '../../redux/ingredients/operations';
 import { MainContainer } from 'components/MainContainer/MainContainer';
 import AddRecipeForm from 'components/AddRecipeForm';
 import PageTitle from 'components/ReusableComponents/PageTitle/';
-import { selectIngredientsList } from 'redux/ingredients/ingredientsSelector';
+import { selectIngredientsList } from '../../redux/ingredients/ingredientsSelector';
 import PopularRecipes from 'components/PopularRecipes/PopularRecipes';
 import Networks from 'components/ReusableComponents/Networks/';
 import FormLoader from 'components/FormLoader/';

@@ -18,7 +18,7 @@ import MainButton from '../ReusableComponents/MainButton/';
 import RecipeDescriptionFields from 'components/RecipeDescriptionFields/';
 import RecipeIngredientsFields from 'components/RecipeIngredientsFields/';
 import RecipePreparationFields from 'components/RecipePreparationFields/';
-import { removeCurrentAddedOwnRecipe } from 'redux/recipes/recipesSlice';
+import { removeCurrentAddedOwnRecipe } from '../../redux/recipes/recipesSlice';
 
 // const initialValues = {
 //   photo: '',

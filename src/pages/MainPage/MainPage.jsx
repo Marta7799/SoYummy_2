@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import СhooseYourBreakfast from 'components/СhooseYourBreakfast';
+import СhooseYourBreakfast from 'components/ChooseYourBreakfast';
 import SearchForm from 'components/ReusableComponents/SearchForm/SearchForm';
 import PreviewCategories from 'components/PreviewCategories';
 

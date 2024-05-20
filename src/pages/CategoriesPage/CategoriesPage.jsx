@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { Suspense, useEffect, useState } from 'react';
 import { Outlet, useParams } from 'react-router';
-import { recipeOperations } from 'redux/recipes/operations';
+import { recipeOperations } from '../../redux/recipes/operations';
 import { CategoryList } from 'components/CategoryList/CategoryList';
 import PageTitle from 'components/ReusableComponents/PageTitle/PageTitle';
 import { MainContainer } from 'components/MainContainer/MainContainer';

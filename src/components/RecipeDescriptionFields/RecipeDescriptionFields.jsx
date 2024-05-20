@@ -5,7 +5,7 @@ import cookTime from 'const/cookTime';
 import FormError from 'components/ReusableComponents/FormError/FormError';
 import sprite from '../../images/AddRecipePage/sprite.svg';
 
-import { selectCategoryList } from 'redux/recipes/recipesSelector';
+import { selectCategoryList } from '../../redux/recipes/recipesSelector';
 import { hasError } from 'helpers/hasError';
 import { convertMinutesToHours } from 'helpers/time-formatter';
 import {
