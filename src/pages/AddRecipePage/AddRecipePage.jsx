@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { recipeOperations } from 'redux/recipes/operations';
-import { ingredientOperations } from 'redux/ingredients/operations';
+import { recipeOperations } from '../../redux/recipes/operations';
+import { ingredientOperations } from '../../redux/ingredients/operations';
 import { MainContainer } from 'components/MainContainer/MainContainer';
-import AddRecipeForm from 'components/AddRecipeForm/';
+import AddRecipeForm from 'components/AddRecipeForm';
 import PageTitle from 'components/ReusableComponents/PageTitle/';
 import { selectIngredientsList } from 'redux/ingredients/ingredientsSelector';
 import PopularRecipes from 'components/PopularRecipes/PopularRecipes';
 import Networks from 'components/ReusableComponents/Networks/';
 import FormLoader from 'components/FormLoader/';
-import { selectTheme } from 'redux/theme/selectors';
+import { selectTheme } from '../../redux/theme/selectors';
 import {
   FormSection,
   SectionPopular,

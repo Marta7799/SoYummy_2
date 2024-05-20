@@ -8,7 +8,7 @@ import {
 } from './UserLogo.styled';
 import defaultImg from '../../images/default-img.png';
 import { useSelector } from 'react-redux';
-import { selectAuth } from 'redux/auth/selectors';
+import { selectAuth } from '../../redux/auth/selectors';
 
 export const UserLogo = () => {
   const modalRef = useRef(null);

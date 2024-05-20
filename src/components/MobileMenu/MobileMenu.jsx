@@ -1,4 +1,4 @@
-import { Logo } from 'components/Header/Header.styles';
+import { Logo } from 'components/Header/Header.styled';
 import ReactDOM from 'react-dom';
 import logo from '../../images/logo.svg';
 import { MobileMenuEl, Wrapper } from './MobileMenu.styled';

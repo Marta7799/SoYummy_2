@@ -5,9 +5,9 @@ import { Outlet } from 'react-router';
 import { MainContainer, Content } from './SharedLayout.styled';
 import Loader from 'components/ReusableComponents/Loader';
 import { useDispatch } from 'react-redux';
-import { getUserInfo } from 'redux/auth/operations';
+import { getUserInfo } from '../../redux/auth/operations';
 import MotivationToast from 'components/MotivationToast/MotivationToast';
-import { selectIsLoggedIn } from 'redux/auth/selectors';
+import { selectIsLoggedIn } from '../../redux/auth/selectors';
 import { useSelector } from 'react-redux';
 
 const SharedLayout = () => {

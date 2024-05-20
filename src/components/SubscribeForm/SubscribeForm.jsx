@@ -13,11 +13,11 @@ import {
 import sprite from '../../images/sprite.svg';
 import MainButton from 'components/ReusableComponents/MainButton/MainButton';
 import { useFormik } from 'formik';
-import { subscribeSchema } from 'helpers/registerValidationShema';
+import { subscribeSchema } from '../../helpers/registerValidationSchema';
 import { getStatus } from 'helpers/utils';
 import { useDispatch, useSelector } from 'react-redux';
-import { subscribeUser } from 'redux/auth/operations';
-import { selectTheme } from 'redux/theme/selectors';
+import { subscribeUser } from '../../redux/auth/operations';
+import { selectTheme } from '../../redux/theme/selectors';
 
 const SubscribeForm = () => {
   const theme = useSelector(selectTheme);
