@@ -1,15 +1,15 @@
 import { Svg, NotPopularTitle } from './NotPopularRecipes.styled';
 import sprite from '../../images/AddRecipePage/sprite.svg';
 
-const NoPopularRecipes = () => {
+const NotPopularRecipes = () => {
   return (
     <div>
       <Svg>
         <use href={`${sprite}#cat`}></use>
       </Svg>
-      <NoPopularTitle>No new popular recipes yet</NoPopularTitle>
+      <NotPopularTitle>No new popular recipes yet</NotPopularTitle>
     </div>
   );
 };
 
-export default NoPopularRecipes;
+export default NotPopularRecipes;
